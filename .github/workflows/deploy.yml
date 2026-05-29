@@ -23,7 +23,7 @@ jobs:
           npm run build
         env:
           # Replace this with your actual Render backend service API URL if named differently
-          VITE_API_BASE_URL: https://ai-travel-planner-backend.onrender.com/api
+          VITE_API_BASE_URL: https://ai-travel-planner-7ipj.onrender.com/api
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
